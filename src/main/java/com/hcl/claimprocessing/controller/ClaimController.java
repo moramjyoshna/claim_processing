@@ -40,7 +40,7 @@ import com.hcl.claimprocessing.utils.ClaimConstants;
  * updated by the Junior Approver/Senior Approver. The List of claim under an
  * Approver can be retrieved
  * 
- * @author Subashri, Jyoshna
+ * @author Jyoshna
  */
 @RestController
 @RequestMapping("/api/v1/claims")
@@ -51,7 +51,7 @@ public class ClaimController {
 	private static final Logger logger = LoggerFactory.getLogger(ClaimController.class);
 
 	/**
-	 * @author Subashri 
+	 * @author Jyoshna 
 	 * This method is used to avail claim by the user who have
 	 *         policy/insurance .
 	 * 
@@ -78,7 +78,7 @@ public class ClaimController {
 	}
 
 	/**
-	 * @author Subashri
+	 * @author Jyoshna
 	 *  This method is used to update the claimInfo of the user who
 	 *         have policy/insurance by approve/reject.
 	 * 
